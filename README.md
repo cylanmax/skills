@@ -4,7 +4,13 @@ Reusable skills for coding agents, published in the open [Agent Skills](https://
 
 ## Install
 
-Install one skill globally for all agents supported by the Skills CLI:
+Install one skill for the agent selected by the CLI:
+
+```bash
+npx skills add cylanmax/skills --skill react-formatted-input
+```
+
+Install it globally for all agents supported by the Skills CLI:
 
 ```bash
 npx skills add cylanmax/skills --skill react-formatted-input --global --agent '*' --yes
